@@ -2,12 +2,10 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
-import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import subBrandLogo from '../img/subBrandLogo.jpg'
+import feature from '../img/feature.jpg' 
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,7 +34,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={subBrandLogo}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
@@ -49,7 +47,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={subBrandLogo}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
@@ -62,7 +60,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={subBrandLogo}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
@@ -75,7 +73,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={subBrandLogo}/>
+        <img className={classes.img} src={feature} style={{borderRadius:'450px'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
