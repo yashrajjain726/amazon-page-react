@@ -47,11 +47,11 @@ export default function ButtonAppBar() {
           </IconButton>
          
           <Typography variant="h6" className={classes.title}>
-          <b style={{ color:'#282b2b', marginRight:'50px' }} >Amazon.in</b> <br/>
+          <b style={{ color:'#282b2b'}} >Amazon.in</b> <br/>
 
             
           </Typography>
-          <MicIcon style={{ color:'#282b2b', marginRight:'50px' }} />
+          <MicIcon style={{ color:'#282b2b', marginRight:'2%' }} />
           <LocalMallIcon style={{ color:'#282b2b'}}/> 
          
         </Toolbar>

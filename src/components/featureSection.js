@@ -34,7 +34,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature}style={{borderRadius:'450px'}}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
@@ -47,7 +47,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature}style={{borderRadius:'450px'}}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
@@ -60,7 +60,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature}style={{borderRadius:'450px'}}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
@@ -73,7 +73,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature} style={{borderRadius:'450px'}}/>
+        <img className={classes.img} src={feature} style={{borderRadius:'450px',marginBottom:'5%'}}/>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
