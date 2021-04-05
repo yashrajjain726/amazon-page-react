@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import heroBanner from '../img/heroBanner.jpg'
-// import HeroSection from './heroSection';
 class HeroSection extends Component {
     state = {  }
     render() { 

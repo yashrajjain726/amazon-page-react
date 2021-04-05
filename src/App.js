@@ -1,12 +1,17 @@
 
 import './App.css';
-import Main from './components/Main'
+import Main from './pages/Main'
+import CategoryPage from './pages/Categories'
+import {BrowserRouter as Router,Route ,Switch} from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-     <Main/>
-    
-    </div>
+    <Router>
+    <Switch>
+    <Route exact path="/"component={Main}/>
+    <Route exact path='/category'component={CategoryPage}/>
+    </Switch>
+ 
+  </Router>
   );
 }
 

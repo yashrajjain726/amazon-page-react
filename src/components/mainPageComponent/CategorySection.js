@@ -1,8 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
 import CategoryData from './CategoryData'
 import Paper from '@material-ui/core/Paper';
 import { Typography } from '@material-ui/core';
@@ -31,16 +29,21 @@ export default function SingleLineGridList() {
   return (
     <div className={classes.root}>
 
-      <GridList className={classes.gridList} >
+     <center>
+     <GridList className={classes.gridList} >
         {CategoryData.map((tile) => (
-          <Paper key={tile.img} style={{height:'100px'}}>
-            <img src={tile.img} alt={tile.title} style={{borderRadius:'450px',height:'50%',marginTop:'5%',marginBottom:'5%'}}/>
-            <Typography>
+            <Paper key={tile.img} style={{height:'100px'}}>
+           <a href="/category"> 
+           <img src={tile.img} alt={tile.title} style={{borderRadius:'450px',height:'50%',marginTop:'5%',marginBottom:'5%'}}/>
+            <Typography style={{color:'black'}}>
                 {tile.title}
             </Typography>
+           </a>
           </Paper>
+
         ))}
       </GridList>
+     </center>
     </div>
   );
 }

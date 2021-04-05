@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel'
 import {useState} from 'react'
-import HeroBanner from '../img/heroBanner.jpg'
+import HeroBanner from '../../img/heroBanner.jpg'
 
 export default function ControlledCarousel() {
     const [index, setIndex] = useState(0);

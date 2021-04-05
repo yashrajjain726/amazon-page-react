@@ -5,7 +5,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Typography from '@material-ui/core/Typography';
 import Paper from '@material-ui/core/Paper';
-import feature from '../img/feature.jpg' 
+import feature from '../../img/feature.jpg' 
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -35,9 +35,11 @@ export default function AutoGrid() {
 
         <CardContent>
         <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
+          <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
+          </center>
         </CardContent>  
         </CardActionArea>
         </Paper>
@@ -48,9 +50,11 @@ export default function AutoGrid() {
 
         <CardContent>
         <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
+          </center>
         </CardContent>  
         </CardActionArea>
         </Paper>
@@ -61,9 +65,11 @@ export default function AutoGrid() {
 
         <CardContent>
         <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
+          </center>
         </CardContent>  
         </CardActionArea>
         </Paper>
@@ -74,9 +80,11 @@ export default function AutoGrid() {
 
         <CardContent>
         <img className={classes.img} src={feature} style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
           </Typography>
+          </center>
         </CardContent>  
         </CardActionArea>
         </Paper>
