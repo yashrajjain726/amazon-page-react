@@ -10,7 +10,7 @@ import feature from '../../img/feature.jpg'
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    margin:'4%',
+    margin:'2%',
     elevation:0
 
   },
@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
   img: {
     margin: 'auto',
     display: 'block',
-    maxWidth: '50%',
-    maxHeight: '50%',
+    maxWidth: '70%',
+    maxHeight: '70%',
   },
 }));
 
@@ -34,7 +34,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'10%'}}/>
           <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
@@ -49,7 +49,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'10%'}}/>
         <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
@@ -64,7 +64,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <img className={classes.img} src={feature}style={{borderRadius:'450px',marginBottom:'10%'}}/>
         <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
@@ -79,7 +79,7 @@ export default function AutoGrid() {
         <CardActionArea>
 
         <CardContent>
-        <img className={classes.img} src={feature} style={{borderRadius:'450px',marginBottom:'5%'}}/>
+        <img className={classes.img} src={feature} style={{borderRadius:'450px',marginBottom:'10%'}}/>
         <center>
           <Typography variant="body2" color="textSecondary" component="p">
             Amazon
