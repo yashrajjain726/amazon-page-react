@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     padding:0,
+    elevation:'0 !important'
     
   },
   gridList: {
@@ -32,7 +33,7 @@ export default function SingleLineGridList() {
      <center>
      <GridList className={classes.gridList} >
         {CategoryData.map((tile) => (
-            <Paper key={tile.img} style={{height:'100px'}}>
+            <Paper key={tile.img} style={{height:'100px',elevation:'0'}} >
            <a href="/category"> 
            <img src={tile.img} alt={tile.title} style={{borderRadius:'450px',height:'50%',marginTop:'5%',marginBottom:'5%'}}/>
             <Typography style={{color:'black'}}>

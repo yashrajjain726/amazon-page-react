@@ -46,6 +46,7 @@ export default function MediaControlCard() {
         className={classes.cover}
         image={feature}
       />
+
        <div >
         <CardContent >
           <Typography >

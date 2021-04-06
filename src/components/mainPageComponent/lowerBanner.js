@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
+import LowerBanner from '../../img/lowerBanner.jpg'
 class HeroSection extends Component {
     state = {  }
     render() { 
         return ( 
        
-                <div className="heroSection">
+                <div  style={{margin:'1%'}}>
                                 
-              <img src='https://images-eu.ssl-images-amazon.com/images/G/31/img17/Pantry/MARCH_2020/SVD_Teaser/Desktop_Teaser_Header.jpg'style={{width:'100%'}} alt="" ></img>
+              <img src={LowerBanner}style={{width:'100%'}} alt="" ></img>
             </div>
          );
     }
