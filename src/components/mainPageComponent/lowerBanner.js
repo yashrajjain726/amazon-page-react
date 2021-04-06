@@ -5,7 +5,7 @@ class HeroSection extends Component {
     render() { 
         return ( 
        
-                <div  style={{margin:'1%'}}>
+                <div  style={{marginTop:'1%'}}>
                                 
               <img src={LowerBanner}style={{width:'100%'}} alt="" ></img>
             </div>
